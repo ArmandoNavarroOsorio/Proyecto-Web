@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#c0aa83" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="shortcut icon" href="favicon.png">
+    <title>Contacto</title>
+    <meta name="description" content="Página web de blog de café">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="build/css/app.css" as="style">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+
+<body>
+
+
+    <!-- Header start -->
+    <div class="header">
+        <div class="container">
+            <div class="header-section">
+                <div class="header-logo">
+                    <a href="index.html">Blog<span>DeCafé</span></a>
+                </div>
+                <button type="button" class="header-hamburger-btn js-header-menu-toggler">
+                    <span></span>
+                </button>
+                <div class="header-backdrop js-header-backdrop"></div>
+                <nav class="header-menu js-header-menu">
+                    <button type="button" class="header-close-btn js-header-menu-toggler">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <ul class="menu">
+                        <li class="menu-item"><a href="index.html">inicio</a></li>
+                        <li class="menu-item"><a href="about.html">nosotros</a></li>
+                        <li class="menu-item"><a href="courses.html">cursos</a></li>
+                        <li class="menu-item"><a href="contact.html">contacto</a></li>
+                    </ul>
+
+                </nav>
+            </div>
+        </div><!-- .container-->
+        <div class="header-text">
+            <h2>Blog de café con consejos y cursos</h2>
+            <p>Aprende de los expertos con las mejores recetas y consejos</p>
+        </div>
+    </div>
+    <!-- Header end -->
+
+    <div class="container">
+        <div class="text-center">
+            <h2 class="title">Contacto</h2>
+        </div>
+
+        <section id="contact" class="contact">
+            <div class="social">
+                <a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a>
+                <a href="javascript:void(0)"><i class="fab fa-twitter"></i></a>
+                <a href="javascript:void(0)"><i class="fab fa-instagram"></i></a>
+                <a href="javascript:void(0)"><i class="fab fa-dribbble"></i></a>
+                <a href="javascript:void(0)"><i class="fab fa-behance"></i></a>
+            </div>
+            <!--social end-->
+
+            <div class="contact-box">
+                <p>Envíenos un correo electrónico con respecto a preguntas o problemas.</p>
+                <form class="form">
+                    <input type="text" placeholder="Nombre" />
+                    <input type="email" placeholder="Correo" />
+                    <textarea placeholder="Mensaje"></textarea>
+                    <button class="btn btn-secondary">Enviar</button>
+                </form> <!-- form end-->
+            </div><!-- contact-box end-->
+
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1680912.135446975!2d-60.81490111586219!3d-36.92454419383507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbcb7595281d9%3A0x4ad309fcdcf0a144!2sProvincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1646323477377!5m2!1ses!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div><!-- map end-->
+        </section><!-- contact end-->
+    </div><!-- container end-->
+
+    <!-- Footer Start-->
+    <footer class="site-footer">
+        <div class="footer-social">
+            <a href="javascript:void(0)" rel="nofollow"><i class="fab fa-facebook-f"></i></a>
+            <a href="javascript:void(0)" rel="nofollow"><i class="fab fa-twitter"></i></a>
+            <a href="javascript:void(0)" rel="nofollow"><i class="fab fa-instagram"></i></a>
+            <a href="javascript:void(0)" rel="nofollow"><i class="fab fa-youtube"></i></a>
+            <a href="javascript:void(0)" rel="nofollow"><i
+                    class="fas fa-envelope"></i></a>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; 2022 Todos los Derechos Reservados.</p>
+            <p>Hecho Con <img src="build/img/heart.svg" alt="Amor"> Por <a
+                    href="https://codekasper.netlify.app/">CodeKasper</a></p>
+        </div>
+    </footer>
+    <!-- Footer End-->
+    <script src="build/js/modernizr.js"></script>
+    <script src="build/js/app.js"></script>
+
+</body>
+
+</html>

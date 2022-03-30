@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#c0aa83" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="shortcut icon" href="favicon.png">
+    <title>Cursos y Talleres</title>
+    <meta name="description" content="Página web de blog de café">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="build/css/app.css" as="style">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+
+<body>
+
+
+        <!-- Header start -->
+        <div class="header">
+            <div class="container">
+                <div class="header-section">
+                    <div class="header-logo">
+                        <a href="index.html">Blog<span>DeCafé</span></a>
+                    </div>
+                    <button type="button" class="header-hamburger-btn js-header-menu-toggler">
+                        <span></span>
+                    </button>
+                    <div class="header-backdrop js-header-backdrop"></div>
+                    <nav class="header-menu js-header-menu">
+                        <button type="button" class="header-close-btn js-header-menu-toggler">
+                            <i class="fas fa-times"></i>
+                        </button>
+                        <ul class="menu">
+                            <li class="menu-item"><a href="index.html">inicio</a></li>
+                            <li class="menu-item"><a href="about.html">nosotros</a></li>
+                            <li class="menu-item"><a href="courses.html">cursos</a></li>
+                            <li class="menu-item"><a href="contact.html">contacto</a></li>
+                        </ul>
+
+                    </nav>
+                </div>
+            </div><!-- .container-->
+            <div class="header-text">
+                <h2>Blog de café con consejos y cursos</h2>
+                <p>Aprende de los expertos con las mejores recetas y consejos</p>
+            </div>
+        </div>
+        <!-- Header end -->
+        <div class="container">
+            <div class="text-center">
+                <h2 class="title">Nuestros Cursos y Talleres</h2>
+            </div>
+            <div class="courses-section">
+                <div class="course">
+
+                    <picture>
+                        <source srcset="build/img/course1.avif" type="image/avif">
+                        <source srcset="build/img/course1.webp" type="image/webp">
+                        <img loading="lazy" width="200" height="300" src="build/img/course1.jpg" alt="imagen del curso">
+                    </picture>
+                    <div class="inner-course">
+                        <span class="level beginner">principiante</span>
+                            <h2>4 Recetas de Café para Principiantes</h2>
+                            <p>Sit amet consectetur adipisicing elit. Expedita, voluptatibus
+                            cumque nam nisi magnam sint. Maxime numquam mollitia vel.</p>
+                    </div>
+                    <div class="course-footer">
+                        <div class="price">
+                            <span class="before">$56</span>
+                            <span class="after">$30</span>
+                        </div>
+                        <p>Cupo:<span class="empty">20</span></p>
+                    </div>
+    
+                </div> <!--.course end-->
+                <div class="course">
+
+                    <picture>
+                        <source srcset="build/img/course2.avif" type="image/avif">
+                        <source srcset="build/img/course2.webp" type="image/webp">
+                        <img loading="lazy" width="200" height="300" src="build/img/course2.jpg" alt="imagen del curso">
+                    </picture>
+                    <div class="inner-course">
+                        <span class="level middle">intermedio</span>
+                            <h2>Técnicas de Extracción de Café</h2>
+                            <p>Sit amet consectetur adipisicing elit. Expedita, voluptatibus
+                            cumque nam nisi magnam sint. Maxime numquam mollitia vel.</p>
+                    </div>
+                    <div class="course-footer">
+                        <div class="price">
+                            <span class="before">$56</span>
+                            <span class="after">$30</span>
+                        </div>
+                        <p>Cupo:<span class="empty">20</span></p>
+                    </div>
+    
+                </div> <!--.course end-->
+                <div class="course grid-column">
+
+                    <picture>
+                        <source srcset="build/img/course3.avif" type="image/avif">
+                        <source srcset="build/img/course3.webp" type="image/webp">
+                        <img loading="lazy" width="200" height="300" src="build/img/course3.jpg" alt="imagen del curso">
+                    </picture>
+                    <div class="inner-course">
+                        <span class="level hard">difícil</span>
+                            <h2>4 Recetas de Café para Profesionales</h2>
+                            <p>Sit amet consectetur adipisicing elit. Expedita, voluptatibus
+                            cumque nam nisi magnam sint. Maxime numquam mollitia vel.</p>
+                    </div>
+                    <div class="course-footer">
+                        <div class="price">
+                            <span class="before">$56</span>
+                            <span class="after">$30</span>
+                        </div>
+                        <p>Cupo:<span class="empty">20</span></p>
+                    </div>
+    
+                </div> <!--.course end-->
+               
+            </div>
+        </div>
+
+        <!-- Footer Start-->
+<footer class="site-footer mt-3">
+    <div class="footer-social">
+      <a href="javascript:void(0)" rel="nofollow"><i class="fab fa-facebook-f"></i></a>
+      <a href="javascript:void(0)" rel="nofollow"><i class="fab fa-twitter"></i></a>
+      <a href="javascript:void(0)" rel="nofollow"><i class="fab fa-instagram"></i></a>
+      <a href="javascript:void(0)" rel="nofollow"><i class="fab fa-youtube"></i></a>
+      <a href="javascript:void(0)" rel="nofollow"><i class="fas fa-envelope"></i></a>
+    </div>
+    <div class="copyright">
+      <p>Copyright &copy; 2022 Todos los Derechos Reservados.</p>
+      <p>Hecho Con <img src="build/img/heart.svg" alt="Amor"> Por <a href="https://codekasper.netlify.app/">CodeKasper</a></p>
+    </div>
+  </footer>
+  <!-- Footer End-->
+    <script src="build/js/modernizr.js"></script>
+    <script src="build/js/app.js"></script>
+    
+</body>
+
+</html>

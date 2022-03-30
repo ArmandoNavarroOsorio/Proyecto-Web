@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#c0aa83" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="shortcut icon" href="favicon.png">
+    <title>Blog Café</title>
+    <meta name="description" content="Página web de blog de café">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="build/css/app.css" as="style">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+
+<body>
+        <!-- Header start -->
+        <div class="header">
+            <div class="container">
+                <div class="header-section">
+                    <div class="header-logo">
+                        <a href="index.html">Blog<span>DeCafé</span></a>
+                    </div>
+                    <button type="button" class="header-hamburger-btn js-header-menu-toggler">
+                        <span></span>
+                    </button>
+                    <div class="header-backdrop js-header-backdrop"></div>
+                    <nav class="header-menu js-header-menu">
+                        <button type="button" class="header-close-btn js-header-menu-toggler">
+                            <i class="fas fa-times"></i>
+                        </button>
+                        <ul class="menu">
+                            <li class="menu-item"><a href="index.html">inicio</a></li>
+                            <li class="menu-item"><a href="about.html">nosotros</a></li>
+                            <li class="menu-item"><a href="courses.html">cursos</a></li>
+                            <li class="menu-item"><a href="contact.html">contacto</a></li>
+                        </ul>
+
+                    </nav>
+                </div>
+            </div><!-- .container-->
+            <div class="header-text">
+                <h2>Blog de café con consejos y cursos</h2>
+                <p>Aprende de los expertos con las mejores recetas y consejos</p>
+            </div>
+        </div>
+        <!-- Header end -->
+
+        <div class="container main-grid">
+            <main class="container">
+                <h3 class="title">Nuestro Blog</h3>
+                <div class="grid">
+                    <article class="blog-post">
+                        <div class="blog-img">
+                            <picture>
+                                <source srcset="build/img/blog1.avif" type="image/avif">
+                                <source loading="lazy" srcset="build/img/blog1.webp" type="image/webp">
+                                <img loading="lazy" src="build/img/blog1.jpg" alt="imagen blog">
+                            </picture>
+                        </div>
+                        <div class="blog-info">
+                            <div class="blog-meta">
+                                <div class="blog-meta-left">
+                                    <i class="far fa-user-circle"></i><span> CodeKasper </span>
+                                    <i class="far fa-clock"></i><span> 05/08/2021 </span>
+                                </div>
+                                <div class="blog-meta-right">
+                                    <i class="fas fa-comments"></i> <span>950</span>
+                                    <span class="hot"><i class="fas fa-fire-alt"></i> 9,794 </span>
+                                </div>
+                            </div>
+                            <h4>Historía de amor en un café</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, rerum, reprehenderit
+                                consequatur perferendis officia...</p>
+                            <a href="javascript:void(0)" class="btn btn-secondary">Leer Entrada</a>
+                        </div>
+                    </article> <!-- .blog-post -->
+                    <article class="blog-post">
+                        <div class="blog-img">
+                            <picture>
+                                <source srcset="build/img/blog2.avif" type="image/avif">
+                                <source loading="lazy" srcset="build/img/blog2.webp" type="image/webp">
+                                <img loading="lazy" src="build/img/blog2.jpg" alt="imagen blog">
+                            </picture>
+                        </div>
+                        <div class="blog-info">
+                            <div class="blog-meta">
+                                <div class="blog-meta-left">
+                                    <i class="far fa-user-circle"></i><span> CodeKasper </span>
+                                    <i class="far fa-clock"></i><span> 05/08/2021 </span>
+                                </div>
+                                <div class="blog-meta-right">
+                                    <i class="fas fa-comments"></i> <span>653</span>
+                                    <span class="hot"><i class="fas fa-fire-alt"></i> 1,664 </span>
+                                </div>
+                            </div>
+                            <h4>3 Deliciosas Recetas de Café</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, rerum, reprehenderit
+                                consequatur perferendis officia...</p>
+                            <a href="javascript:void(0)" class="btn btn-secondary">Leer Entrada</a>
+                        </div>
+                    </article> <!-- .blog-post -->
+                    <article class="blog-post">
+                        <div class="blog-img">
+                            <picture>
+                                <source srcset="build/img/blog3.avif" type="image/avif">
+                                <source loading="lazy" srcset="build/img/blog3.webp" type="image/webp">
+                                <img loading="lazy" src="build/img/blog3.jpg" alt="imagen blog">
+                            </picture>
+                        </div>
+                        <div class="blog-info">
+                            <div class="blog-meta">
+                                <div class="blog-meta-left">
+                                    <i class="far fa-user-circle"></i><span> CodeKasper </span>
+                                    <i class="far fa-clock"></i><span> 05/08/2021 </span>
+                                </div>
+                                <div class="blog-meta-right">
+                                    <i class="fas fa-comments"></i> <span>120</span>
+                                    <span class="hot"><i class="fas fa-fire-alt"></i> 2,534 </span>
+                                </div>
+                            </div>
+                            <h4>Beneficios del Café</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, rerum, reprehenderit
+                                consequatur perferendis officia...</p>
+                            <a href="javascript:void(0)" class="btn btn-secondary">Leer Entrada</a>
+                        </div>
+                    </article> <!-- .blog-post -->
+                    <article class="blog-post">
+                        <div class="blog-img">
+                            <picture>
+                                <source srcset="build/img/blog4.avif" type="image/avif">
+                                <source loading="lazy" srcset="build/img/blog4.webp" type="image/webp">
+                                <img loading="lazy" src="build/img/blog4.jpg" alt="imagen blog">
+                            </picture>
+                        </div>
+                        <div class="blog-info">
+                            <div class="blog-meta">
+                                <div class="blog-meta-left">
+                                    <i class="far fa-user-circle"></i><span> CodeKasper </span>
+                                    <i class="far fa-clock"></i><span> 05/08/2021 </span>
+                                </div>
+                                <div class="blog-meta-right">
+                                    <i class="fas fa-comments"></i> <span>12</span>
+                                    <span class="hot"><i class="fas fa-fire-alt"></i> 2,534 </span>
+                                </div>
+                            </div>
+                            <h4>Países productores de café</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, rerum, reprehenderit
+                                consequatur perferendis officia...</p>
+                            <a href="javascript:void(0)" class="btn btn-secondary">Leer Entrada</a>
+                        </div>
+                    </article> <!-- .blog-post -->
+                </div>
+            </main>
+            <aside class="sidebar">
+                <h3 class="title">Nuestros Cursos y Talleres</h3>
+    
+                <ul class="widget">
+                    <li class="widget-course">
+                        <div class="widget-img">
+                            <picture>
+                                <source srcset="build/img/course1.avif" type="image/avif">
+                                <source loading="lazy" srcset="build/img/course1.webp" type="image/webp">
+                                <img loading="lazy" src="build/img/course1.jpg" alt="imagen blog">
+                            </picture>
+                        </div>
+                        <div class="inner-widget">
+                            <h4>4 Recetas de Café para Principiantes</h4>
+                            <p>Cupo:<span class="empty">20</span></p>
+                            <p>Dificultad:<span class="level beginner">principiante</span>
+                            </p>
+                        </div>
+    
+                    </li><!-- .widget-course end-->
+    
+                    <li class="widget-course">
+                        <div class="widget-img">
+                            <picture>
+                                <source srcset="build/img/course2.avif" type="image/avif">
+                                <source loading="lazy" srcset="build/img/course2.webp" type="image/webp">
+                                <img loading="lazy" src="build/img/course2.jpg" alt="imagen blog">
+                            </picture>
+                        </div>
+                        <div class="inner-widget">
+                            <h4>Técnicas de Extracción de Café</h4>
+                            <p>Cupo:<span class="empty">20</span></p>
+                            <p>Dificultad:<span
+                                    class="level middle">intermedio</span>
+                            </p>
+                        </div>
+    
+                    </li><!-- .widget-course end-->
+                    <li class="widget-course">
+                        <div class="widget-img">
+                            <picture>
+                                <source srcset="build/img/course3.avif" type="image/avif">
+                                <source loading="lazy" srcset="build/img/course3.webp" type="image/webp">
+                                <img loading="lazy" src="build/img/course3.jpg" alt="imagen blog">
+                            </picture>
+                        </div>
+                        <div class="inner-widget">
+                            <h4>4 Recetas de Café para Profesionales</h4>
+                            <p>Cupo:<span class="empty">20</span></p>
+                            <p>Dificultad:<span
+                                    class="level hard">difícil</span></p>
+                        </div>
+    
+                    </li><!-- .widget-course end-->
+                </ul><!-- .widget end -->
+    
+    
+                <div class="box">
+                    <div class="newsletter">
+                        <h3>Suscribete Newsletter</h3>
+                        <p>Reciba nuestras últimas noticias directamente en su bandeja de entrada</p>
+                    </div>
+                    <div class="newsletter-form">
+                        <input type="text" placeholder="Tú Correo Electrónico">
+                        <button><i class="fas fa-envelope"></i></button>
+                    </div>
+                </div> <!-- .box end-->
+                <div class="box">
+                    <div class="coffee">
+                        <p>Puedes apoyar este blog invitandome un café</p>
+                        <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Invitar Café', '#ff5e5b', 'K3K07XSNJ');kofiwidget2.draw();</script> 
+                    </div>
+                
+                </div><!-- .box end-->
+            </aside>
+        </div><!-- .main-grid end-->
+<!-- Footer Start--> 
+<footer class="site-footer mt-3">
+    <div class="footer-social">
+      <a href="javascript:void(0)" rel="nofollow"><i class="fab fa-facebook-f"></i></a>
+      <a href="javascript:void(0)" rel="nofollow"><i class="fab fa-twitter"></i></a>
+      <a href="javascript:void(0)" rel="nofollow"><i class="fab fa-instagram"></i></a>
+      <a href="javascript:void(0)" rel="nofollow"><i class="fab fa-youtube"></i></a>
+      <a href="javascript:void(0)" rel="nofollow"><i class="fas fa-envelope"></i></a>
+    </div>
+    <div class="copyright">
+      <p>Copyright &copy; 2022 Todos los Derechos Reservados.</p>
+      <p>Hecho Con <img src="build/img/heart.svg" alt="Amor"> Por <a href="https://codekasper.netlify.app/">CodeKasper</a></p>
+    </div>
+  </footer>
+  <!-- Footer End-->
+    <script src="build/js/modernizr.js"></script>
+    <script src="build/js/app.js"></script>
+    
+</body>
+
+</html>
